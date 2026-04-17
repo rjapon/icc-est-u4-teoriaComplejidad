@@ -1,19 +1,14 @@
 package complejidades;
 
 public class ComplejidadConstante {
-
-    public void ejemplo(){
-        System.out.println("Ejemplo1");
-    }
-
-    public int obtenerPrimero (int[] numeros){
-        return numeros[0];
-    }
-
-    int a = 3;
-    int b = 4;    
-    public int sumar(int a, int b){
+    public static int sumar(int a, int b) {
         return a + b;
     }
 
-}
+    public static void main(String[] args) {
+        System.out.println(sumar(5, 3));
+    }
+}    
+
+
+
