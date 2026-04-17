@@ -1,4 +1,5 @@
 package complejidades;
+
 public class ComplejidadConstante {
 
     public void ejemplo(){
