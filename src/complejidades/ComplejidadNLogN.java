@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class ComplejidadNLogN {
     /*
         Complejidad NLogN : O(nlogn)
-        Descripcion: Pasa cuando un algoritmo trabaja con todos los datos,
-        pero además los va organizando o dividiendo en partes.
+        Descripcion: Pasa cuando un algoritmo trabaja con todos los datos, pero además los va organizando
+        o dividiendo en partes para resolver el problema de una forma más rápida. Por eso no avanza dato
+        por dato de la manera más lenta, sino que va separando, ordenando y acomodando la información poco a poco.
     */
     public void ejemplo(){
         System.out.println("");

@@ -3,9 +3,8 @@ package complejidades;
 public class ComplejidadLogaritmica {
     /*
         Complejidad Logaritmica: O(log n)
-        La complejidad logaritmica se da cuando un programa reduce 
-        el tamañno de un problema de forma rápida
-
+        La complejidad logaritmica se da cuando un programa reduce el tamaño de un problema en cada iteración.
+        Debido a esto, aunque el tamaño de la entrada aumente, la cantidad de iteraciones va a crecer lentamente.
     */
     public void ejemplo(){
         System.out.println("");
@@ -13,8 +12,8 @@ public class ComplejidadLogaritmica {
         System.out.println("Complejidad Logaritmica");
 
         /*
-            Esto se logra dividiendo o multiplicando para que se necesite 
-            cada vez menos operaciones.
+            En el ejemplo utilizamos i*=2 en vez de tener un ciclo que avanza
+             de uno en uno. Por esta razón la cantidad de iteraciones necesarias disminuye
         */
 
         int n=100;
