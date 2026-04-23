@@ -13,6 +13,11 @@ public class ComplejidadNLogN {
         System.out.println("----------------------");
         System.out.println("Complejidad NLogN");
 
+        /*
+            Este código ordena las notas de menor a mayor usando un método eficiente.
+            Lo que hace es acomodar todos los datos de forma más rápida que compararlos uno por uno muchas veces.
+         */
+
         int[] notas = {78, 90, 65, 88, 72, 95, 80};
         Arrays.sort(notas);
 

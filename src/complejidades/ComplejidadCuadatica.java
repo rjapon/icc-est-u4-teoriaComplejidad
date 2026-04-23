@@ -12,6 +12,11 @@ public class ComplejidadCuadatica {
         System.out.println("----------------------");
         System.out.println("Complejidad Cuadratica");
 
+        /*
+            Este código compara una nota con las demás para ver si hay notas repetidas.
+            Como hace muchas comparaciones entre los elementos, tarda más cuando la lista crece. 
+        */
+
         int[] notas = {8, 7, 8, 9, 6};
 
         for (int i = 0; i < notas.length; i++) {

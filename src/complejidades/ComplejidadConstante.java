@@ -12,6 +12,7 @@ public class ComplejidadConstante {
         System.out.println("");
         System.out.println("----------------------");
         System.out.println("Complejidad Constante");
+        
         //consultar el saldo de una tarjeta en una posición ya conocida dentro de un arreglo
 
         double[] saldos = {150.75, 320.50, 89.00, 500.25, 43.65};
