@@ -34,18 +34,32 @@ Consiste en implementar y medir el algoritmo en la práctica, probándolo con di
 
 ## Notacion Big O
 
-Es el estándar matemático utilizado en computación para analizar la eficiencia de un algoritmo. Define cómo crece el tiempo de ejecución o el uso de memoria a medida que aumentamos la cantidad de datos (n)
+La notación Big O es una forma de describir el rendimiento de un algoritmo. Sirve para saber cuánto tiempo puede tardar un programa o cuántos recursos puede usar cuando la cantidad de datos aumenta. No se enfoca en segundos exactos, sino en cómo crece el trabajo que hace el algoritmo.
 
-### Mejor caso (𝛀 - Omega)
+### Mejor caso 
 
-Es el escenario ideal donde el algoritmo realiza la menor cantidad de pasos posibles. Por ejemplo, al buscar un elemento en una lista, es encontrarlo en la primera posición.
+El mejor caso es la situación en la que el algoritmo funciona de la manera más rápida posible. Pasa cuando encuentra la solución casi de inmediato o cuando los datos están en una condición favorable. Este caso muestra el menor tiempo que podría tomar.
 
-### Peor caso (〇- Big O)
+### Peor caso 
 
-El escenario donde el algoritmo realiza la mayor cantidad de pasos. Es el caso más crítico para los programadores, ya que garantiza que el sistema funcionará correctamente incluso bajo máxima carga.
+El peor caso es la situación en la que el algoritmo tarda más. Sucede cuando tiene que revisar muchos datos o hacer más pasos para resolver el problema. Este es uno de los casos más importantes, porque ayuda a conocer el máximo tiempo que podría necesitar el algoritmo.
 
-### Caso promedio (Θ - Theta)
+### Caso promedio 
 
-Es el rendimiento esperado del algoritmo en condiciones normales, promediando todos los posibles escenarios de entrada.
+El caso promedio representa un tiempo intermedio, es decir, lo que normalmente pasaría en una situación común. No es tan rápido como el mejor caso ni tan lento como el peor. Sirve para tener una idea más realista de cómo se comporta un algoritmo en la mayoría de usos.
 
-# Continuara...
+## Big O, Ω, Θ
+
+Estas tres notaciones se usan para describir el crecimiento de un algoritmo de distintas maneras:
+
+### Big O (O)
+
+Se usa para mostrar el máximo crecimiento que puede tener un algoritmo. Es decir, nos dice cuál sería su comportamiento en el peor escenario o, dicho más simple, lo más que podría tardar cuando aumentan los datos.
+
+### Omega (Ω)
+
+Muestra el mínimo crecimiento que puede tener un algoritmo. O sea, representa el mejor caso o lo menos que podría tardar.
+
+### Theta (Θ)
+
+Se usa cuando el algoritmo tiene un comportamiento más definido, es decir, cuando crece prácticamente al mismo ritmo tanto en el mejor como en el peor caso. Theta muestra una medida más exacta del crecimiento del algoritmo. Si decimos que un algoritmo es Θ(n), significa que su tiempo de ejecución crece de manera proporcional a la cantidad de datos, sin alejarse mucho de ese comportamiento.
