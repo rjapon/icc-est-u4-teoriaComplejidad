@@ -5,7 +5,7 @@ public class main {
 
         new ComplejidadConstante().ejemplo();
 
-        new ComplejidadCuadatica().ejemplo();
+        new ComplejidadCuadratica().ejemplo();
 
         new ComplejidadLineal().ejemplo();
         

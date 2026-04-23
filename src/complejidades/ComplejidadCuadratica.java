@@ -1,6 +1,6 @@
 package complejidades;
 
-public class ComplejidadCuadatica {
+public class ComplejidadCuadratica {
     /*
         Complejidad Cuadratica : O(n^2)
         Descripción: Cada elemento, se compara con el resto de datos.
