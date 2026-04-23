@@ -32,3 +32,20 @@ Consiste en estudiar el algoritmo sin ejecutarlo necesariamente, normalmente usa
 
 Consiste en implementar y medir el algoritmo en la práctica, probándolo con distintos tamaños de entrada y observando tiempos reales. Es útil porque da resultados concretos, aunque depende del entorno de prueba.
 
+## Notacion Big O
+
+Es el estándar matemático utilizado en computación para analizar la eficiencia de un algoritmo. Define cómo crece el tiempo de ejecución o el uso de memoria a medida que aumentamos la cantidad de datos (n)
+
+### Mejor caso (𝛀 - Omega)
+
+Es el escenario ideal donde el algoritmo realiza la menor cantidad de pasos posibles. Por ejemplo, al buscar un elemento en una lista, es encontrarlo en la primera posición.
+
+### Peor caso (〇- Big O)
+
+El escenario donde el algoritmo realiza la mayor cantidad de pasos. Es el caso más crítico para los programadores, ya que garantiza que el sistema funcionará correctamente incluso bajo máxima carga.
+
+### Caso promedio (Θ - Theta)
+
+Es el rendimiento esperado del algoritmo en condiciones normales, promediando todos los posibles escenarios de entrada.
+
+# Continuara...
