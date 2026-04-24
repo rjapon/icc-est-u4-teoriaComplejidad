@@ -77,6 +77,6 @@ La complejidad constante es cuando una operación tarda siempre el mismo tiempo,
 
 ![Texto descriptivo](assets/ComplejidadConstante.png)
 
--El número de pasos es fijo.
-\n-No depende del tamaño de los datos.
+-El número de pasos es fijo.<br>
+-No depende del tamaño de los datos.<br>
 -Es de acceso directo.
