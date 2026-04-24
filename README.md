@@ -66,6 +66,29 @@ Muestra el mínimo crecimiento que puede tener un algoritmo. O sea, representa e
 
 Se usa cuando el algoritmo tiene un comportamiento más definido, es decir, cuando crece prácticamente al mismo ritmo tanto en el mejor como en el peor caso. Theta muestra una medida más exacta del crecimiento del algoritmo. Si decimos que un algoritmo es Θ(n), significa que su tiempo de ejecución crece de manera proporcional a la cantidad de datos, sin alejarse mucho de ese comportamiento.
 
+## Notaciones
+
+Estas notaciones describen qué tan rápido crece el tiempo de ejecución de un algoritmo según el tamaño de los datos (n):
+
+### O(1) – Constante:<br>
+
+El tiempo no cambia aunque aumenten los datos. Es el más rápido.<br>
+
+### O(log n) – Logarítmica:<br>
+
+Crece muy lentamente. Ejemplo: búsqueda binaria.<br>
+
+### O(n) – Lineal:
+
+Crece proporcionalmente al tamaño de los datos.
+
+### O(n log n):
+
+Un poco más lento que lineal, común en algoritmos eficientes de ordenamiento.
+
+### O(n²) – Cuadrática:
+
+Crece rápido, suele aparecer en ciclos anidados.
 
 # DOCUMENTACION DE LOS EJEMPLOS JAVA
 
