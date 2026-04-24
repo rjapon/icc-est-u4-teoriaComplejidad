@@ -107,3 +107,24 @@ Es cuando el tiempo de ejecución crece proporcionalmente al número de datos( e
 
 ## Complejidad Logaritmica
 
+### Descripcion del ejemplo
+
+La complejidad logarítmica se da cuando un programa reduce el tamaño de un problema en cada iteración. Debido a esto, aunque el tamaño de la entrada aumente, la cantidad de iteraciones va a crecer lentamente.
+
+![C4](assets/ComplejidadLogaritmica.png)
+
+-En cada iteración el valor de i se multiplica por 2.<br>
+-El ciclo no avanza de uno en uno.<br>
+-La cantidad de vueltas se reduce.
+
+## Complejidad NLogN
+
+### Descripcion de ejemplo
+
+La complejidad NLogN es característica de algoritmos eficientes de ordenamiento, el algoritmo divide el problema en partes más pequeñas para resolverlo de manera organizada.
+Crece de forma más lenta que la cuadrática, siguiendo una relación entre el tamaño de los datos (n) y el logaritmo de los mismos (log n).
+
+![C5](assets/ComplejidadNLogN.png)
+
+Combina el procesamiento de todos los elementos con una estrategia de "divide y vencerás".<br>
+Reduce el tamaño del problema en cada paso, se minimiza la cantidad total de comparaciones necesarias.
