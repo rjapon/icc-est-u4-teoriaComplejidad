@@ -171,8 +171,9 @@ Aprendimos que la complejidad de un algoritmo es un tema importante de aprender 
 
 ## ¿Qué les sorprendió más al ver el código?
 
-Nos sorprendió que con el simple hecho de escoger una complejidad incorrecta, un código simple puede volverse muy costoso y lento.
+Lo que más nos sorprendió fue ver que pequeños cambios en el código pueden hacer una gran diferencia en el tiempo que tarda en ejecutarse. A veces solo cambiar la forma de recorrer los datos o evitar repetir procesos innecesarios puede hacer que el programa sea mucho más rápido.
+También nos llamó la atención que no todos los códigos que hacen lo mismo trabajan igual. Dos programas pueden dar el mismo resultado, pero uno puede ser más lento que otro por la forma en que está escrito. Por eso entendimos que programar no es solo escribir instrucciones, sino pensar bien cómo resolver el problema.
 
 ## ¿Qué concluimos?
 
-Concluimos que es necesario saber sobre la complejidad para aplicarla a nuestros programas, ya que de eso dependerá si es más eficiente o no.
+Lo que pudimos concluir es que la eficiencia de los algoritmos depende mucho del tipo de complejidad que se utiliza. Esto se va a poder evidenciar cuando trabajamos con cantidades muy grandes de datos. Es necesario entender los diferentes tipos de complejidades para poder tener un código eficiente que consuma la cantidad mínima de recursos. El análisis nos ayuda a entender la importancia de optimizar nuestros programas para evitar que sean lentos y que consuman muchos recursos.
