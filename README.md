@@ -75,8 +75,35 @@ Se usa cuando el algoritmo tiene un comportamiento más definido, es decir, cuan
 
 La complejidad constante es cuando una operación tarda siempre el mismo tiempo, sin importar el tamaño de los datos.
 
-![Texto descriptivo](assets/ComplejidadConstante.png)
+![C1](assets/ComplejidadConstante.png)
 
 -El número de pasos es fijo.<br>
 -No depende del tamaño de los datos.<br>
 -Es de acceso directo.
+
+## Complejidad Cuadratica
+
+### Descripcion de ejemplo
+
+La complejidad cuadrática ocurre cuando el tiempo de ejecución de un algoritmo crece proporcionalmente al cuadrado del tamaño de los datos de entrada
+
+![C2](assets/ComplejidadCuadratica.png)
+
+-Crece exponencialmente según el tamaño de la entrada (n * n).<br>
+-El tiempo depende directamente del cuadrado del tamaño de los datos.<br>
+-Común en algoritmos de fuerza bruta o búsqueda de duplicados
+
+## Complejidad Lineal
+
+### Descripcion de ejemplo
+
+Es cuando el tiempo de ejecución crece proporcionalmente al número de datos( entre más datos, más tarda).
+
+![C3](assets/ComplejidadLineal.png)
+
+-Depende del tamaño de los datos.<br>
+-Recorre todos los elementos.<br>
+-El tiempo crece proporcionalmente.
+
+## Complejidad Logaritmica
+
