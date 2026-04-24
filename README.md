@@ -1,3 +1,5 @@
+# INVESTIGACION TEORICA
+
 # Teoria de la Complejidad
 
 ## ¿Que es la teoria de la complejidad?
@@ -63,3 +65,14 @@ Muestra el mínimo crecimiento que puede tener un algoritmo. O sea, representa e
 ### Theta (Θ)
 
 Se usa cuando el algoritmo tiene un comportamiento más definido, es decir, cuando crece prácticamente al mismo ritmo tanto en el mejor como en el peor caso. Theta muestra una medida más exacta del crecimiento del algoritmo. Si decimos que un algoritmo es Θ(n), significa que su tiempo de ejecución crece de manera proporcional a la cantidad de datos, sin alejarse mucho de ese comportamiento.
+
+
+# DOCUMENTACION DE LOS EJEMPLOS JAVA
+
+## Complejidad Constante
+
+### Descripcion de ejemplo
+
+Consultar el saldo de una tarjeta en una posición ya conocida dentro de un arreglo
+
+![Texto descriptivo](assets/ComplejidadConstante.png)
