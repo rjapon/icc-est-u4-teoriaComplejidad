@@ -73,6 +73,10 @@ Se usa cuando el algoritmo tiene un comportamiento más definido, es decir, cuan
 
 ### Descripcion de ejemplo
 
-Consultar el saldo de una tarjeta en una posición ya conocida dentro de un arreglo
+La complejidad constante es cuando una operación tarda siempre el mismo tiempo, sin importar el tamaño de los datos.
 
 ![Texto descriptivo](assets/ComplejidadConstante.png)
+
+-El número de pasos es fijo.
+-No depende del tamaño de los datos.
+-Es de acceso directo.
