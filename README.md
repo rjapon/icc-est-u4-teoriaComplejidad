@@ -77,6 +77,7 @@ La complejidad constante es cuando una operación tarda siempre el mismo tiempo,
 
 ![C1](assets/ComplejidadConstante.png)
 
+Es O(1) por que:<br>
 -El número de pasos es fijo.<br>
 -No depende del tamaño de los datos.<br>
 -Es de acceso directo.
@@ -89,6 +90,7 @@ La complejidad cuadrática ocurre cuando el tiempo de ejecución de un algoritmo
 
 ![C2](assets/ComplejidadCuadratica.png)
 
+Es O(n^2) por que:<br>
 -Crece exponencialmente según el tamaño de la entrada (n * n).<br>
 -El tiempo depende directamente del cuadrado del tamaño de los datos.<br>
 -Común en algoritmos de fuerza bruta o búsqueda de duplicados
@@ -101,6 +103,7 @@ Es cuando el tiempo de ejecución crece proporcionalmente al número de datos( e
 
 ![C3](assets/ComplejidadLineal.png)
 
+Es O(n) por que:<br>
 -Depende del tamaño de los datos.<br>
 -Recorre todos los elementos.<br>
 -El tiempo crece proporcionalmente.
@@ -113,6 +116,7 @@ La complejidad logarítmica se da cuando un programa reduce el tamaño de un pro
 
 ![C4](assets/ComplejidadLogaritmica.png)
 
+Es O(Log n) por que:<br>
 -En cada iteración el valor de i se multiplica por 2.<br>
 -El ciclo no avanza de uno en uno.<br>
 -La cantidad de vueltas se reduce.
@@ -126,5 +130,6 @@ Crece de forma más lenta que la cuadrática, siguiendo una relación entre el t
 
 ![C5](assets/ComplejidadNLogN.png)
 
+Es O(NLogN):<br>
 Combina el procesamiento de todos los elementos con una estrategia de "divide y vencerás".<br>
 Reduce el tamaño del problema en cada paso, se minimiza la cantidad total de comparaciones necesarias.
