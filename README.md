@@ -130,7 +130,6 @@ Crece de forma más lenta que la cuadrática, siguiendo una relación entre el t
 
 ![C5](assets/ComplejidadNLogN.png)
 
-Es O(NLogN) porque:<br>
 Es O(n log n) porque:<br>
 -Se trabaja con todos los datos del arreglo.<br>
 -Arrays.sort() ordena los datos de forma eficiente.<br>
@@ -139,3 +138,18 @@ Es O(n log n) porque:<br>
 
 # CONCLUSIONES
 
+## ¿Qué complejidad es más costosa y por qué?
+
+La más costosa sería la cuadrática, porque el número de operaciones crece muy rápido a medida que aumenta el tamaño de los datos, esto ocurre porque en su mayoría implican ciclos anidados, haciendo que el tiempo se dispare.
+
+## ¿Qué aprendieron del análisis?
+
+Aprendimos que la complejidad de un algoritmo es un tema importante de aprender para poder avanzar en programación, ya que dependiendo del programa se debe escoger la mejor complejidad, ya que de eso dependerá si es programa rapido o muy lento.
+
+## ¿Qué les sorprendió más al ver el código?
+
+Nos sorprendió que con el simple hecho de escoger una complejidad incorrecta, un código simple puede volverse muy costoso y lento.
+
+## ¿Qué concluimos?
+
+Concluimos que es necesario saber sobre la complejidad para aplicarla a nuestros programas, ya que de eso dependerá si es más eficiente o no.
